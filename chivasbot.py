@@ -1462,7 +1462,7 @@ def bot(op):
                             pass
             elif "Cleanse" in msg.text:
                 if msg.toType == 2:
-                    print "ok"
+                    print ("ok")
                     _name = msg.text.replace("Cleanse","")
                     gs = ki.getGroup(msg.to)
                     gs = kk.getGroup(msg.to)
