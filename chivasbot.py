@@ -1327,7 +1327,7 @@ def bot(op):
                         else:
                             chiya = ""
                             for rom in wait2["ROM"][msg.to].items():
-                                print rom
+                                print (rom)
                                 chiya += rom[1] + "\n"
 
                         cl.sendText(msg.to, "People who readed %s\nthat's it\n\nPeople who have ignored reads\n%sIt is abnormal ♪\n\nReading point creation date n time:\n[%s]"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
