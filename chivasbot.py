@@ -1600,10 +1600,10 @@ def bot(op):
                 kc.sendText(msg.to,"Ok Cv 􀨁􀄻double thumbs up􏿿")
 #-----------------------------------------------
             elif "Bc " in msg.text:
-				bctxt = msg.text.replace("Bc ","")
-				ki.sendText(msg.to,(bctxt))
-				kk.sendText(msg.to,(bctxt))
-				kc.sendText(msg.to,(bctxt))
+		bctxt = msg.text.replace("Bc ","")
+		ki.sendText(msg.to,(bctxt))
+		kk.sendText(msg.to,(bctxt))
+		kc.sendText(msg.to,(bctxt))
 #-----------------------------------------------
 
             elif msg.text in ["Cv say hi"]:
