@@ -1535,7 +1535,7 @@ def bot(op):
                                     ki.sendText(msg.to,"error")
             elif "Ban @" in msg.text:
                 if msg.toType == 2:
-                    print "[Ban]ok"
+                    print ("[Ban]ok")
                     _name = msg.text.replace("Ban @","")
                     _nametarget = _name.rstrip('  ')
                     gs = ki.getGroup(msg.to)
@@ -1565,7 +1565,7 @@ def bot(op):
                                 kc.sendText(msg.to,"Error")
             elif "Unban @" in msg.text:
                 if msg.toType == 2:
-                    print "[Unban]ok"
+                    print ("[Unban]ok")
                     _name = msg.text.replace("Unban @","")
                     _nametarget = _name.rstrip('  ')
                     gs = ki.getGroup(msg.to)
