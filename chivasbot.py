@@ -1757,11 +1757,11 @@ def bot(op):
                     except:
                         pass
         if op.type == 59:
-            print op
+            print (op)
 
 
     except Exception as error:
-        print error
+        print (error)
 
 
 def a2():
