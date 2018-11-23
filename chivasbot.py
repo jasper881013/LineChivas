@@ -1391,7 +1391,7 @@ def bot(op):
                         invsend = 0
                         Ticket = cl.reissueGroupTicket(msg.to)
                         kc.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        print "kicker ok"
+                        print ("kicker ok")
                         G.preventJoinByTicket = True
                         kc.updateGroup(G)
 #-----------------------------------------------
