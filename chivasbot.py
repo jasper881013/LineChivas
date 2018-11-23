@@ -1353,7 +1353,7 @@ def bot(op):
                         G = cl.getGroup(msg.to)
                         G.preventJoinByTicket = True
                         ki.updateGroup(G)
-                        print "kicker ok"
+                        print ("kicker ok")
                         G.preventJoinByTicket(G)
                         ki.updateGroup(G)
 
