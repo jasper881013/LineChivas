@@ -1319,7 +1319,7 @@ def bot(op):
                     wait2['readPoint'][msg.to] = msg.id
                     wait2['readMember'][msg.to] = ""
                     wait2['ROM'][msg.to] = {}
-                    print wait2
+                    print (wait2)
             elif msg.text == "$read":
                     if msg.to in wait2['readPoint']:
                         if wait2["ROM"][msg.to].items() == []:
