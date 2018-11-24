@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from Api import Poll, Talk, Channel
+from LineAlpha.Api import Poll, Talk, Channel
 from Gen.ttypes import *
 
 def def_callback(str):
