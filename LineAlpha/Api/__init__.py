@@ -1,3 +1,3 @@
-from Talk import Talk
-from Poll import Poll
-from Channel import Channel
+from Api.Talk import Talk
+from Api.Poll import Poll
+from Api.Channel import Channel
